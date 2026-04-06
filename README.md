@@ -103,10 +103,3 @@ python 03_predict.py --image path/to/weld.jpg --visualize
 | Intensity Stats | mean_intensity, std_intensity, skewness |
 
 ---
-
-## Next Steps (Phase 2 — Backend API)
-
-Once models are trained, we'll build:
-- **FastAPI server** with a `/predict` endpoint
-- **SQLite database** storing results (weld_images + extracted_features tables)
-- **Analytics dashboard** showing defect statistics over time
