@@ -1,3 +1,6 @@
 /venv
 .env
 /dataset
+/anaconda_projects
+/data
+/results
