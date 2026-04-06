@@ -87,7 +87,7 @@ python 03_predict.py --image path/to/weld.jpg --visualize
 | Field | Description |
 |---|---|
 | `status` | `good` or `bad` |
-| `defect_type` | `crack`, `porosity`, `undercut`, `lack_of_fusion`, etc. |
+| `defect_type` | `lack_of_penetration`, `burn_through`, `lack_of_fusion`, etc. |
 | `confidence` | Probability per class |
 | `features` | All 18 extracted feature values |
 
